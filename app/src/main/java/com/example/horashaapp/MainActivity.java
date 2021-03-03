@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tvData = findViewById(R.id.tvData);
         btnGetData = findViewById(R.id.btnGetData);
 
-        gasolineVehicle = new GasolineVehicle("Suzuki", 0);
+        gasolineVehicle = new GasolineVehicle("Suzuki", 40);
     }
 
     private void initListeners() {
